@@ -1,9 +1,21 @@
-const CACHE_NAME = "center-management-v1";
+const CACHE_NAME = "center-management-v3";
 
 const FILES_TO_CACHE = [
     "./",
     "./index.html",
-    "./manifest.json"
+    "./manifest.json",
+
+    "./css/style.css",
+    "./js/app.js",
+
+    "./pages/attendance.html",
+    "./pages/fees.html",
+    "./pages/groups.html",
+    "./pages/reports.html",
+    "./pages/sessions.html",
+    "./pages/settings.html",
+    "./pages/students.html",
+    "./pages/teachers.html"
 ];
 
 self.addEventListener("install", event => {
