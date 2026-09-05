@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>نظام إدارة السنتر</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- القائمة الجانبية -->
+
+    <aside class="sidebar">
+
+        <h2>🏫 السنتر</h2>
+
+        <nav>
+
+            <a href="index.html" class="active">
+                🏠 لوحة التحكم
+            </a>
+
+            <a href="pages/students.html">
+                👨‍🎓 الطلاب
+            </a>
+
+           <a href="pages/teachers.html">
+                👨‍🏫 المدرسين 
+            </a>
+
+           <a href="pages/fees.html">
+                💰 المصروفات
+            </a>
+
+            <a href="#">
+                👥 المجموعات
+            </a>
+
+            <a href="#">
+                🕐 الحصص
+            </a>
+
+            <a href="#">
+                📋 الحضور والغياب
+            </a>
+
+            <a href="#">
+                📊 التقارير
+            </a>
+
+            <a href="#">
+                ⚙️ الإعدادات
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- المحتوى الرئيسي -->
+
+    <main class="main-content">
+
+
+        <!-- الهيدر -->
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>لوحة التحكم</h1>
+
+                <p>
+                    مرحبًا بك في نظام إدارة السنتر 👋
+                </p>
+
+            </div>
+
+            <div class="admin">
+                👤 الإدارة
+            </div>
+
+        </header>
+
+
+        <!-- الإحصائيات -->
+
+        <section class="cards">
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    👨‍🎓
+                </div>
+
+                <div>
+
+                    <h3>الطلاب</h3>
+
+                    <strong id="studentsCount">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    👨‍🏫
+                </div>
+
+                <div>
+
+                    <h3>المدرسين</h3>
+
+                    <strong id="teachersCount">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    👥
+                </div>
+
+                <div>
+
+                    <h3>المجموعات</h3>
+
+                    <strong id="groupsCount">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    💰
+                </div>
+
+                <div>
+
+                    <h3>إجمالي المدفوعات</h3>
+
+                    <strong>
+                        <span id="paymentsTotal">0</span>
+                        جنيه
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- الإجراءات السريعة -->
+
+        <section class="section-box">
+
+            <h2>⚡ إجراءات سريعة</h2>
+
+
+            <div class="quick-actions">
+
+                <button>
+                    ➕ إضافة طالب
+                </button>
+
+                <button>
+                    👨‍🏫 إضافة مدرس
+                </button>
+
+                <button>
+                    💰 تسجيل دفعة
+                </button>
+
+                <button>
+                    👥 إضافة مجموعة
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- آخر العمليات -->
+
+        <section class="section-box">
+
+            <h2>📋 آخر العمليات</h2>
+
+            <div class="empty">
+
+                لا توجد عمليات حتى الآن.
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
